@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import React, {useState} from 'react';
 import './App.css';
-import inputs from "./inputs.js";
+import Inputs from "./inputs.js";
 const App =() => {
   return (
     <div>
-      <inputs/>
+      <Inputs/>
     </div>
   );
 }
 
-export default inputs;
+export default Inputs;
 
 {/* <div className="App">
       <header className="App-header">
